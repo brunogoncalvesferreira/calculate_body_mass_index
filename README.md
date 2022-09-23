@@ -23,6 +23,7 @@ A aplcação foi projetada para ser uma calculadora de IMC ( Indice de massa cor
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Javascript
+- HTML
 - CSS
 - Git e Github
 
