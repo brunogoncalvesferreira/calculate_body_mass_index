@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../assets/favicon.png" />
+  <!--Icons-->
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+  <!--Icons-->
+  <!--CSS-->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Calculadora IMC</title>
+</head>
+
+<body>
+  <div id="container">
+      <form id="form">
+
+        <h1>Calculadora de IMC</h1>
+        <p>Coloque os seus dados na calculadora e calcule o seu IMC:</p>
+
+        <div>
+
+          <div class="height">
+            <label for="height">Altura</label>
+            <input 
+              type="text" 
+              id="height"
+              placeholder="Exemplo 1,75" 
+              autocomplete="off" 
+              required
+            />
+          </div>
+
+          <div class="weight">
+            <label for="weigth">Peso</label>
+            <input 
+              type="text" 
+              id="weight" 
+              placeholder="Exemplo 79,5" 
+              autocomplete="off" 
+              required
+            />
+          </div>
+
+        </div>
+
+        <div id="control-form">
+          <button id="btn-calcule" type="submit">Calcular</button>
+          <button id="btn-clear-inputs">Limpar</button>
+        </div>
+        
+      </form> 
+
+      <div id="result-container" class="modal">
+        <p id="imc-number">Seu IMC é: <span></span></p>
+        <p id="imc-info">Situação atual: <span></span></p>
+        <h3>Confira as classificações</h3>
+
+        <div id="imc-table">
+          <div id="imc-header">
+            <h4>IMC</h4>
+            <h4>classificação</h4>
+            <h4>Obesidade</h4>
+          </div>
+        </div>
+        <button id="btn-back">Voltar</button>
+      </div>
+  </div>
+
+  <footer>
+    <p>copyright &copy; 2022 | Bruno Gonçalves Ferreira</p>
+  </footer>
+  <script src="./js/scripts.js"></script>
+</body>
+
+</html>
