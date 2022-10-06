@@ -14,7 +14,7 @@ A aplcação foi projetada para ser uma calculadora de IMC ( Indice de massa cor
 ![preview](./.github/preview_1.png)
 ![preview](./.github/preview_2.png)
 
-[Clique aqui para acessar](https://brunogoncalvesferreira.github.io/calculate_body_mass_index/)
+[Clique aqui para acessar](https://meuimc.com/)
 
 <br>
 
