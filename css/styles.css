@@ -78,9 +78,9 @@ input {
   background-color: var(--blue500);
   border-radius: 2px;
 
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 700;
-  color: var(--gray900);
+  color: #fff;
 }
 
 input::placeholder {
